@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  padding: 12px 24px;
+  background: purple;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: darkviolet;
+}
